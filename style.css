@@ -1,0 +1,38 @@
+/* Import a simple sans-serif font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+/* Set up the page background, center text, and apply the font globally */
+body {
+  background-color: #add8e6; /* Light blue background */
+  text-align: center;        /* Center all text */
+  font-family: 'Roboto', Arial, sans-serif; /* Use Roboto or fallback to Arial/sans-serif */
+}
+
+/* Card container styles */
+.card {
+  background: #fff;                    /* White background for the card */
+  border: 1px solid #ccc;              /* Light gray border */
+  border-radius: 12px;                 /* Rounded corners */
+  max-width: 350px;                    /* Maximum width of the card */
+  margin: 40px auto;                   /* Center card horizontally with margin on top/bottom */
+  padding: 32px 24px;                  /* Space inside the card */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* Subtle shadow for depth */
+}
+
+/* Main heading styles */
+h1 {
+  font-size: 40px;     /* Large font size */
+  color: #003366;      /* Dark blue color */
+}
+
+/* Subheading styles */
+h2 {
+  font-size: 24px;     /* Medium font size */
+  color: slategray;    /* Light grayish-blue color */
+}
+
+/* Paragraph styles */
+p {
+  font-size: 18px;     /* Comfortable reading size */
+  line-height: 1.6;    /* Increased line spacing for readability */
+}
